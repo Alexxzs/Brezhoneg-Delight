@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "brezhonegdelight",
+	"version": "${version}",
+	"name": "Brezhoneg Delight",
+	"description": "Breton food for Minecraft, for fun!",
+	"authors": [
+		"Alexxzs"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/brezhonegdelight/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.alexxzs.brezhonegdelight.BrezhonegDelight"
+		],
+		"fabric-datagen": [
+			"com.alexxzs.brezhonegdelight.BrezhonegDelightDataGenerator"
+		],
+		"client": [
+			"com.alexxzs.brezhonegdelight.BrezhonegDelightClient"
+		]
+	},
+	"mixins": [
+		"brezhonegdelight.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
