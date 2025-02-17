@@ -1,5 +1,6 @@
-package com.alexxzs.brezhonegdelight;
+package bzh.alexxzs.brezhonegdelight;
 
+import bzh.alexxzs.brezhonegdelight.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,7 +12,7 @@ public class BrezhonegDelight implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		LOGGER.info("Brezhoneg Delight mod initialized, Degemer mat!");
 	}
 }

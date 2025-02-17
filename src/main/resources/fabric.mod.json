@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.alexxzs.brezhonegdelight.BrezhonegDelight"
+			"bzh.alexxzs.brezhonegdelight.BrezhonegDelight"
 		],
 		"fabric-datagen": [
-			"com.alexxzs.brezhonegdelight.BrezhonegDelightDataGenerator"
+			"bzh.alexxzs.brezhonegdelight.BrezhonegDelightDataGenerator"
 		],
 		"client": [
-			"com.alexxzs.brezhonegdelight.BrezhonegDelightClient"
+			"bzh.alexxzs.brezhonegdelight.BrezhonegDelightClient"
 		]
 	},
 	"mixins": [

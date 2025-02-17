@@ -1,4 +1,4 @@
-package com.alexxzs.brezhonegdelight;
+package bzh.alexxzs.brezhonegdelight;
 
 import net.fabricmc.api.ClientModInitializer;
 

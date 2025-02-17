@@ -1,0 +1,14 @@
+{
+  "item.brezhonegdelight.kouign_amann": "Kouign-Amann",
+  "item.brezhonegdelight.kig_ha_farz": "Kig Ha Farz",
+  "item.brezhonegdelight.chouchen": "Chouchen",
+  "item.brezhonegdelight.salt": "Sel",
+  "item.brezhonegdelight.semi_salted_butter": "Beurre Demi-sel",
+
+
+  "tooltip.brezhonegdelight.noshift" : "Appuyez §lSHIFT§r pour plus d'informations",
+
+  "tooltip.brezhonegdelight.chouchen.shift_down": "Le §lChouchen§r est un alcool breton, fait à base de miel et d'eau, ainsi que de pommes traditionnellement.",
+  "tooltip.brezhonegdelight.kouign_amann.shift_down": "Le §lKouign-Amann§r est une pâtisserie bretonne grasse, faite à base de couches de beurre et de sucre. Il a été créé à Douarnenez au XIXè siècle.",
+  "tooltip.brezhonegdelight.kig_ha_farz.shift_down": "Le §lKig Ha Farz§r est un plat breton similaire au pot-au-feu, composé de viande, de bouillon et de pâte à base de sarrasin."
+}

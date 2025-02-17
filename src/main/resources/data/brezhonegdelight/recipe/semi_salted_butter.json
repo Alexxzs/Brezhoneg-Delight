@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "brezhonegdelight:salt"
+      },
+      {
+        "item": "minecraft:milk_bucket"
+      }
+    ],
+    [
+      {
+        "item": "brezhonegdelight:salt"
+      },
+      {
+        "item": "farmersdelight:milk_bottle"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "brezhonegdelight:semi_salted_butter"
+  }
+}

@@ -1,4 +1,4 @@
-package com.alexxzs.brezhonegdelight.mixin;
+package bzh.alexxzs.brezhonegdelight.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
