@@ -20,16 +20,6 @@ public class ModItems {
     public static final Item KIG_HA_FARZ = registerItem("kig_ha_farz", new EdibleItem(new Item.Settings().food(ModFoodComponents.KIG_HA_FARZ), "kig_ha_farz"));
     // TODO : k-h-f fait de porc (raw, fd), de boeuf (minced, fd), de carottes (v), d'oignon (fd), de sel (aj), d'eau (v)
     public static final Item CHOUCHEN = registerItem("chouchen", new DrinkItem(new Item.Settings().food(ModFoodComponents.CHOUCHEN), "chouchen"));
-    /* TODO: Crêpes blé noir, -->
-        Far breton, -->
-        Sablé breton, --> beurre(aj) + oeuf(v) + sucre(v) + blé(v)
-        caramel au beurre salé, --> sucre(v) + beurre(aj) + sel(aj)
-        cidre? (il y a déjà dans FD...),
-        paris-brest, pas sûr de l'ajout
-        gavottes, pas sûr de l'ajout
-        moules frites ??? VRMT Pas sûr de l'ajout
-        beurre demi-sel serait drôle --> oui
-         */
 
     public static final Item SALT = registerItem("salt", new Item(new Item.Settings()));
     public static final Item SEMI_SALTED_BUTTER = registerItem("semi_salted_butter", new Item(new Item.Settings()));
