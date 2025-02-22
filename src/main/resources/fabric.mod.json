@@ -3,13 +3,13 @@
 	"id": "brezhonegdelight",
 	"version": "${version}",
 	"name": "Brezhoneg Delight",
-	"description": "Breton food for Minecraft, for fun!",
+	"description": "Adds Breton food to Minecraft, for fun!",
 	"authors": [
 		"Alexxzs"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Alexxzs/Brezhoneg-Delight"
 	},
 	"license": "MIT",
 	"icon": "assets/brezhonegdelight/icon.png",
@@ -32,7 +32,8 @@
 		"fabricloader": ">=0.16.10",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"farmersdelight" : ">=1.21.1-2.2.0+refabricated"
 	},
 	"suggests": {
 		"another-mod": "*"

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "CCC",
+    "___"
+  ],
+  "key": {
+    "#": {
+      "item": "brezhonegdelight:semi_salted_butter"
+    },
+    "C": {
+      "item": "minecraft:sugar"
+    },
+    "_": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "id": "brezhonegdelight:kouign_amann",
+    "count": 1
+  }
+}

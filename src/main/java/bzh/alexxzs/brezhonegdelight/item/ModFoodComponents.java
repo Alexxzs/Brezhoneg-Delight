@@ -28,4 +28,11 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(ModEffects.COMFORT, 120*TICK_TO_SECONDS, 0), 1.0F)
             .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 5*TICK_TO_SECONDS, 0), 0.33F)
             .build();
+
+    public static final FoodComponent BRETON_CREPE = new FoodComponent.Builder()
+            .nutrition(10)
+            .saturationModifier(1f)
+            .statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT, 300*TICK_TO_SECONDS, 0), 1.0F)
+            .build();
+
 }

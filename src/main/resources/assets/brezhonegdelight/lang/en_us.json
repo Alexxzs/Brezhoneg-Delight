@@ -4,11 +4,13 @@
   "item.brezhonegdelight.chouchen": "Chouchen",
   "item.brezhonegdelight.salt": "Salt",
   "item.brezhonegdelight.semi_salted_butter": "Semi-salted Butter",
+  "item.brezhonegdelight.breton_crepe" : "Breton Crepe",
 
   "tooltip.brezhonegdelight.noshift": "Press §lSHIFT§r for more information",
 
 
   "tooltip.brezhonegdelight.chouchen.shift_down": "§lChouchen§r is an alcoholic Breton beverage, made with honey and water, as well as apples traditionally.",
   "tooltip.brezhonegdelight.kouign_amann.shift_down": "§lKouign-Amann§r is a greasy Breton pastry made with layers of butter and sugar. It originates from the city of Douarnenez in the 19th century.",
-  "tooltip.brezhonegdelight.kig_ha_farz.shift_down": "§lKig Ha Farz§r is a Breton dish similar to the French \"pot-au-feu\", made with meat, broth and buckwheat pudding."
+  "tooltip.brezhonegdelight.kig_ha_farz.shift_down": "§lKig Ha Farz§r is a Breton dish similar to the French \"pot-au-feu\", made with meat, broth and buckwheat pudding.",
+  "tooltip.brezhonegdelight.breton_crepe.shift_down" : "§lBreton Crepe§r is the most iconic dish in Britanny. It consists of a buckweat crepe, often garnished with egg, cheese and ham."
 }

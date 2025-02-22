@@ -4,10 +4,12 @@
   "item.brezhonegdelight.chouchen": "Chouchenn",
   "item.brezhonegdelight.salt": "Holen",
   "item.brezhonegdelight.semi_salted_butter": "Mann Hanter-holen",
+  "item.brezhonegdelight.breton_crepe": "Krampouezhenn",
 
   "tooltip.brezhonegdelight.noshift" : "Pouezit war §lSHIFT§r evit gouzout hiroc'h",
 
   "tooltip.brezhonegdelight.chouchen.shift_down": "Un alkool breizhat eo ar §lchouchen§r, graet diwar mel ha dour, hag ivez avaloù hengounel.",
   "tooltip.brezhonegdelight.kouign_amann.shift_down": "§lKouign-Amann§r zo ur pastez breizhat lipous graet gant gwiskamantoù amann ha sukr. Dont a ra eus kêr Douarnenez en XIXvet kantved.",
-  "tooltip.brezhonegdelight.kig_ha_farz.shift_down": "§lKig Ha Farz§r zo ur meuz brezhonek heñvel ouzh ar \"pot-au-feu\" gallek, graet gant kig, soubenn ha pastez gwinizh-du."
+  "tooltip.brezhonegdelight.kig_ha_farz.shift_down": "§lKig Ha Farz§r zo ur meuz brezhonek heñvel ouzh ar \"pot-au-feu\" gallek, graet gant kig, soubenn ha pastez gwinizh-du.",
+  "tooltip.brezhonegdelight.breton_crepe.shift_down": "§lKrampouezhenn§r eo ar meuz hengounelañ e Breizh. Ur c'hreion gwinizh-du eo, leuniet alies gant ur vi, keuz ha jambon."
 }
