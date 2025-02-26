@@ -6,9 +6,6 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
 public class BrezhonegDelightDataGenerator implements DataGeneratorEntrypoint {
 
-
-	/* TODO: Stack Overflow à cause de Porting Lib (méthode getTables()) à régler */
-
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();

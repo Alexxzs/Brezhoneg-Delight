@@ -12,35 +12,32 @@ base {
 
 
 repositories {
-	// Add repositories to retrieve artifacts from in here.
-	// You should only use this when depending on other mods because
-	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
-	// for more information about repositories.
 
 	maven {
 		name = "Greenhouse Maven"
 		url = 'https://repo.greenhouse.house/releases/'
 	}
 
-	maven { url = 'https://repo.greenhouse.house/snapshots/' } //Temporary fork of Porting Lib for 1.21
-
-//	maven { url = "https://mvn.devos.one/snapshots/" }
-//	maven { url "https://mvn.devos.one/releases/" } // Porting Lib
-
 	maven {
-		url "https://maven.jamieswhiteshirt.com/libs-release" // Reach Entity Attributes (Required by Porting Lib)
-		content {
-			includeGroup "com.jamieswhiteshirt"
-		}
+		name = "Greenhouse Maven"
+		url = 'https://repo.greenhouse.house/snapshots/' // Porting Lib Hotfixes
 	}
+
+	maven { url "https://mvn.devos.one/snapshots/" } // Porting Lib Betas
+
 	maven {
 		url "https://jitpack.io/" // Fabric ASM
 		content {
 			excludeGroup "io.github.fabricators_of_create"
 		}
 	}
+
 }
+
+sourceSets.main.resources {
+	srcDirs += 'src/generated/resources'
+}
+
 
 fabricApi {
 	configureDataGeneration {
@@ -48,18 +45,17 @@ fabricApi {
 	}
 }
 
+
 dependencies {
-	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-	// Farmer's Delight on which relies the mod
+	// Farmer's Delight
 	modImplementation("vectorwing:FarmersDelight:${fdrf_version}") {
 		exclude(group: "net.fabricmc")
 	}
 
-	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 }
