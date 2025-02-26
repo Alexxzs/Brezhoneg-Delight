@@ -33,7 +33,7 @@
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*",
-		"farmersdelight" : ">=1.21.1-2.2.0+refabricated"
+		"farmersdelight" : ">=1.21-2.1.0+refabricated"
 	},
 	"suggests": {
 		"another-mod": "*"

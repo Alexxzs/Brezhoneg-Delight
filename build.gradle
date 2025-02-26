@@ -10,23 +10,36 @@ base {
 	archivesName = project.archives_base_name
 }
 
-repositories {
-	maven {
-		name = "Cursemaven"
-		url = 'https://cursemaven.com'
-	}
-	maven {
-		name = "Porting Lib via"
-		url = "https://mvn.devos.one/releases/"
-	}
-	maven { url "https://mvn.devos.one/snapshots/" }
-	maven { url "https://jitpack.io/"}
 
+repositories {
 	// Add repositories to retrieve artifacts from in here.
 	// You should only use this when depending on other mods because
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
+
+	maven {
+		name = "Greenhouse Maven"
+		url = 'https://repo.greenhouse.house/releases/'
+	}
+
+	maven { url = 'https://repo.greenhouse.house/snapshots/' } //Temporary fork of Porting Lib for 1.21
+
+//	maven { url = "https://mvn.devos.one/snapshots/" }
+//	maven { url "https://mvn.devos.one/releases/" } // Porting Lib
+
+	maven {
+		url "https://maven.jamieswhiteshirt.com/libs-release" // Reach Entity Attributes (Required by Porting Lib)
+		content {
+			includeGroup "com.jamieswhiteshirt"
+		}
+	}
+	maven {
+		url "https://jitpack.io/" // Fabric ASM
+		content {
+			excludeGroup "io.github.fabricators_of_create"
+		}
+	}
 }
 
 fabricApi {
@@ -42,18 +55,13 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	// Farmer's Delight on which relies the mod
-	modImplementation("curse.maven:farmers-delight-refabricated-993166:${project.farmersdelight_version}")
-
-	// Porting Lib
-	for (String module in porting_lib_modules.split(",")) {
-		modImplementation("io.github.fabricators_of_create.Porting-Lib:$module:$porting_lib_version")
+	modImplementation("vectorwing:FarmersDelight:${fdrf_version}") {
+		exclude(group: "net.fabricmc")
 	}
-
-
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	
+
 }
 
 processResources {
